@@ -1,5 +1,13 @@
 
 all:
-	gcc test_tty.c -o test_tty
+	make all -C  main
+
+install:
+	make install -C main
+
 clean:
-	rm -rf test_tty
+	make clean -C main
+
+uninstall:
+	make uninstall -C main
+
