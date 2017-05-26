@@ -1,0 +1,11 @@
+
+Directory :
+    include : Head file.
+    src     : source code.
+    bin     : Binary file of make install.
+    lib     : Library of  install.
+    main    : Main program.
+Use :
+    make install
+    make uninstall
+
